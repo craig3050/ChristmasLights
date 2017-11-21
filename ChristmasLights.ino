@@ -43,15 +43,15 @@ const int mqtt_port = 1883;
 
 
 /**************************** FOR OTA **************************************************/
-#define SENSORNAME "lights1" //change this to whatever you want to call your device
+#define SENSORNAME "christmas7" //change this to whatever you want to call your device
 #define OTApassword "revaeb" //the password you will need to enter to upload remotely via the ArduinoIDE
 int OTAport = 8266;
 
 
 
 /************* MQTT TOPICS (change these topics as you wish)  **************************/
-const char* light_state_topic = "lights/external/christmas1";
-const char* light_set_topic = "lights/external/christmas1/set";
+const char* light_state_topic = "lights/external/christmas7";
+const char* light_set_topic = "lights/external/christmas7/set";
 
 const char* on_cmd = "ON";
 const char* off_cmd = "OFF";
